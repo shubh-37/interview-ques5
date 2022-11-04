@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 
 var studentsArr = [];
 
-for (let i = 0; i < 3; i++){
+for (let i = 0; i < 5; i++){
   var stuName = readlineSync.question("what is your name? ");
   var unitMarks = readlineSync.question("what is your unit-test marks? ");
   var preFinalMarks = readlineSync.question("what is your pre-final marks? ");
